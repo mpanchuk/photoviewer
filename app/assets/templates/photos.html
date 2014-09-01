@@ -1,0 +1,21 @@
+<h3><a href="#/albums">Your albums</a> / {{ albumTitle }}</h3>
+<div ng-repeat="photo in photos">
+  <div class="row photo">
+    <div class="col-md-6 text-right">
+      <h6>{{ photo.title }}</h6>
+      <img ng-src="{{ photo.photo_url }}">
+    </div>
+    <div class="col-md-6 text-left" ng-controller="CommentsListCtrl">
+      <h4>Comments</h4>
+      <div class="panel panel-default" ng-repeat="comment in comments">
+        <div class="panel-body">
+          {{ comment.body }}
+        </div>
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="3" ng-model="new_comment"></textarea>
+      </div>
+      <button class="btn btn-warning" ng-click="save_comment()">Post comment</button>
+    </div>
+  </div>
+</div>

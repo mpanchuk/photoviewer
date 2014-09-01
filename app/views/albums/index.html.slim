@@ -1,0 +1,14 @@
+.navbar.navbar-default.top-nav role="navigation"
+  .container-fluid
+    .navbar-header
+      a.navbar-brand href="/"
+        = image_tag "logo-min.png", width: 200, class: "logo-min"
+    .navbar-collapse.collapse
+      ul.nav.navbar-nav.navbar-right
+        li
+          a
+            strong
+              = current_user.name
+        li
+          = link_to "Sign Out", destroy_user_session_path, method: :delete
+div ng-view=""

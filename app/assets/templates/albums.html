@@ -1,0 +1,7 @@
+<h3>Your albums</h3>
+<div ng-controller="AlbumListCtrl">
+  <a ng-href="#/albums/{{ album.id }}" class="album" ng-repeat="album in albums">
+    <span>{{ album.title }}</span>
+    <img class="img-thumbnail" ng-src="{{ album.cover_url }}">
+  </a>
+</div>

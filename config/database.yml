@@ -1,0 +1,10 @@
+development:
+  adapter: postgresql
+  database: photo_viewer_dev
+  username: mpanchuk
+  password: mishaapple
+  encoding: utf8
+  host: localhost
+  min_messages: warning
+  pool: 2
+  timeout: 5000

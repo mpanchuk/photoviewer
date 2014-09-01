@@ -1,0 +1,7 @@
+development:
+  google_client_id: "183250755617-ps352mr6j0606rthug2e7vqcct3uulns.apps.googleusercontent.com"
+  google_client_secret: "2QN4U1pymcdXASzMCFL4dUcx"
+
+production:
+  google_client_id: "183250755617-ps352mr6j0606rthug2e7vqcct3uulns.apps.googleusercontent.com"
+  google_client_secret: "2QN4U1pymcdXASzMCFL4dUcx"

@@ -1,0 +1,19 @@
+.album {
+  display: inline-block;
+  margin: 0 15px 0 0;
+
+  span {
+    color: #fff;
+    position: absolute;
+    background-color:rgba(0,0,0,0.4);
+    width: 160px;
+    height: 30px;
+    margin: 125px 0 0 5px;
+    padding: 5px 0 0 0;
+    text-align: center;
+  }
+}
+
+.photo {
+  padding-top: 25px;
+}
